@@ -4,3 +4,6 @@ def calculateStats(numbers):
 
 def EmailAlert():
   return None
+
+def LEDAlert():
+  return None
