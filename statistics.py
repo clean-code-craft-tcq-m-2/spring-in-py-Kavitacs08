@@ -2,10 +2,10 @@
 from __future__ import division
 
 def calculateStats(numbers):
-  min = min(numbers)
-  max = max(numbers)
+  min_val = min(numbers)
+  max_val = max(numbers)
   avg = 0 if len(somelist) == 0 else sum(numbers)/len(numbers)
-  return {"avg" : avg,"min": min,"max": max}
+  return {"avg" : avg,"min": min_val,"max": max_val}
 
 #Added code 
 def EmailAlert():
