@@ -1,9 +1,9 @@
 
-from __future__ import division
+import math
 
 def calculateStats(numbers):
   if not numbers:
-    dict_min_max = {"avg" : None,"min": None,"max": None}
+    dict_min_max = {"avg" : nan,"min": nan,"max": nan}
   else:
     min_val = min(numbers)
     print("MIN",min_val)
