@@ -9,7 +9,7 @@ class StatsTest(unittest.TestCase):
 #     self.assertAlmostEqual(computedStats["max"], 8.9, delta=epsilon)
 #     self.assertAlmostEqual(computedStats["min"], 1.5, delta=epsilon)
     self.assertAlmostEqual(4.525, 4.525, delta=epsilon)
-    self.assertAlmostEqual(8.9, 8.9, delta=epsilon)
+    self.assertAlmostEqual(4, 8.9, delta=epsilon)
     self.assertAlmostEqual(1.5, 1.5, delta=epsilon)
 
   def test_avg_is_nan_for_empty_input(self):
