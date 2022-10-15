@@ -3,10 +3,7 @@ from __future__ import division
 
 def calculateStats(numbers):
   if not numbers:
-    min_val = nan
-    max_val = nan
-    avg = nan
-    dict_min_max = {"avg" : avg,"min": min_val,"max": max_val}
+    dict_min_max = {"avg" : null,"min": null,"max": null}
   else:
     min_val = min(numbers)
     print("MIN",min_val)
