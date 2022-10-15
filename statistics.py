@@ -9,6 +9,7 @@ def calculateStats(numbers):
   avg = 0 if len(numbers) == 0 else sum(numbers)/len(numbers)
   print("AVG",avg)
   dict_min_max = {"avg" : avg,"min": min_val,"max": max_val}
+  print("dict_min_max",dict_min_max)
   return dict_min_max
 
 #Added code 
