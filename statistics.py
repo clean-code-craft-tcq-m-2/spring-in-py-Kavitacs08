@@ -1,10 +1,8 @@
 
-from statistics import mean, median
-
 def calculateStats(numbers):
   min = min(numbers)
   max = max(numbers)
-  avg= mean(numbers)
+  avg = 0 if len(somelist) == 0 else sum(numbers)/len(numbers)
   return {"avg" : avg,"min": min,"max": max}
 
 #Added code 
