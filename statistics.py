@@ -9,5 +9,5 @@ def EmailAlert():
 def LEDAlert():
   return None
 
-def StatsAlerter(maxThreshold, [emailAlert, ledAlert]):
+def StatsAlerter(maxThreshold, x[]):
   return None
