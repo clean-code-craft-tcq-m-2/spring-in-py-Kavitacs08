@@ -8,7 +8,8 @@ def calculateStats(numbers):
   print("MAX",max_val)
   avg = 0 if len(numbers) == 0 else sum(numbers)/len(numbers)
   print("AVG",avg)
-  return {"avg" : avg,"min": min_val,"max": max_val}
+  dict_min_max = {"avg" : avg,"min": min_val,"max": max_val}
+  return dict_min_max
 
 #Added code 
 def EmailAlert():
