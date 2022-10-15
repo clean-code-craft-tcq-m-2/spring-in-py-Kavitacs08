@@ -1,4 +1,6 @@
 
+from __future__ import division
+
 def calculateStats(numbers):
   min = min(numbers)
   max = max(numbers)
