@@ -10,4 +10,4 @@ def LEDAlert():
   return None
 
 def StatsAlerter(maxThreshold, x):
-  return 1
+  return None
