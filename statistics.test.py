@@ -4,7 +4,7 @@ import statistics
 class StatsTest(unittest.TestCase):
   print("Inside StatsTest")
   def test_report_min_max_avg(self):
-    print("test_report_min_max_avg")
+    print("Inside test_report_min_max_avg")
     computedStats = statistics.calculateStats([1.5, 8.9, 3.2, 4.5])
 #Added Code
 #     computedStats = {"avg":4.525,"max":8.9,"min":1.5}
@@ -19,7 +19,7 @@ class StatsTest(unittest.TestCase):
 #     self.assertAlmostEqual(1.5, 1.5, delta=epsilon)
 
   def test_avg_is_nan_for_empty_input(self):
-    print("test_avg_is_nan_for_empty_input")
+    print("Inside test_avg_is_nan_for_empty_input")
     computedStats = statistics.calculateStats([])
     # All fields of computedStats (average, max, min) must be
     # nan (not-a-number), as defined in the math package
