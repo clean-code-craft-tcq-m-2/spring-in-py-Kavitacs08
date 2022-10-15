@@ -4,10 +4,10 @@ def calculateStats(numbers):
 
 #Added code 
 def EmailAlert():
-  return None
+  return 20.5
 
 def LEDAlert():
-  return None
+  return 16.5
 
 def StatsAlerter(maxThreshold, x):
   return None
