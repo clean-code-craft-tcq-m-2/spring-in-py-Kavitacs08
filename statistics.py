@@ -1,6 +1,11 @@
 
+from statistics import mean, median
+
 def calculateStats(numbers):
-  return None
+  min = min(numbers)
+  max = max(numbers)
+  avg= mean(numbers)
+  return {"avg" : avg,"min": min,"max": max}
 
 #Added code 
 def EmailAlert():
