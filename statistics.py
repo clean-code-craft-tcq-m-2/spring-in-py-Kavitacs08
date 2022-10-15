@@ -2,7 +2,7 @@
 from __future__ import division
 
 def calculateStats(numbers):
-  if numbers.isnan():
+  if not numbers:
     min_val = nan
     max_val = nan
     avg = nan
