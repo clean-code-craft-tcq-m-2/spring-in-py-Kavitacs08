@@ -1,5 +1,6 @@
 import unittest
 import statistics
+import math
 
 class StatsTest(unittest.TestCase):
   print("Inside StatsTest")
@@ -15,9 +16,9 @@ class StatsTest(unittest.TestCase):
     print("Inside test_avg_is_nan_for_empty_input")
     computedStats = statistics.calculateStats([])
     epsilon = 0.001
-    self.assertAlmostEqual(computedStats["avg"], nan, delta=epsilon)
-    self.assertAlmostEqual(computedStats["max"], nan, delta=epsilon)
-    self.assertAlmostEqual(computedStats["min"], nan, delta=epsilon)
+    self.assertAlmostEqual(computedStats["avg"], Nan, delta=epsilon)
+    self.assertAlmostEqual(computedStats["max"], Nan, delta=epsilon)
+    self.assertAlmostEqual(computedStats["min"], Nan, delta=epsilon)
     # All fields of computedStats (average, max, min) must be
     # nan (not-a-number), as defined in the math package
     # Design the assert here.
