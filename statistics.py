@@ -3,7 +3,7 @@ import math
 
 def calculateStats(numbers):
   if not numbers:
-    dict_min_max = {"avg" : "","min": "","max": ""}
+    dict_min_max = {"avg" : NaN,"min": NaN,"max": NaN}
   else:
     min_val = min(numbers)
     print("MIN",min_val)
